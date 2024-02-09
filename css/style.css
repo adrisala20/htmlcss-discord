@@ -84,6 +84,9 @@ footer{
     background-color: var(--color-primary);
     color: var(--color-scondary);
 }
+a #arrow::before {
+    content:/'2193'/;
+}
 /* flex utility */
 .d-flex {
     display: flex;
