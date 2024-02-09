@@ -19,3 +19,53 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: var(--color-scondary);   
 }
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    background-image: url(../img/jumbo.png);
+    min-height: 8px;
+}
+
+.plug {
+    border: 2px solid red;
+}
+ header ul>li, a {
+    font-size: 9%;
+    padding: 2%;
+    color: var(--color-scondary);
+ }
+ header> nav {
+    padding-bottom: 10px;
+ }
+
+/* main */
+.section-bg {
+    background-color: var(--color-section-bg);
+}
+
+
+/* footer */
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+/* utility */
+.d-padding {
+    padding: 20px;
+}
+.font-secondary {
+    color: var(--color-scondary);
+}
+
+
+/* flex utility */
+.d-flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
