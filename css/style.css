@@ -18,23 +18,21 @@ ul {
 body {
     font-family: 'Noto Sans', sans-serif;
     font-size: 2em;
-    font-weight: bold;
     background-color: var(--color-scondary);  
 
 }
 /* header */
 header {
-    background-image: url(../img/jumbo.png);
-    height: 550px;
-    min-height: 8px;
-
-}
-
+        background-image: url(../img/jumbo.png);
+        min-height: 8px;
+        background-size: cover;
+    }
+    
 .plug {
     border: 2px solid red;
 }
  header ul>li, a {
-    font-size: 10%;
+    font-size: 14px;
     padding: 2%;
     color: var(--color-scondary);
  }
@@ -46,7 +44,7 @@ header {
     font-weight:bolder;
  }
 /* main */
-h1>p, h1, h3 {
+h1>p, h1, h2 {
     padding-bottom: 10px;
 }
 .section-bg {
@@ -63,6 +61,12 @@ h1>p, h1, h3 {
 .btn-contrast {
     background-color: var(--color-contrast);
 }
+#tecnology img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
 .stars {
     background-image: url(../img/stars.svg);
     background-size: cover;
@@ -77,18 +81,18 @@ footer{
 .footer-top {
     border-bottom: 1px solid var(--color-contrast);
 }
-.font-footer {
-    line-height: 30px;
-    font-size: small;
-    font-weight: 600;
+h3 {
+    color: var(--color-contrast);
+    font-weight: bolder;
+    padding: 20px;
 }
 #flag {
     width: 50px;
     height: 25px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
-details > summary {
-   list-style-type: "\02C5";
+#icon {
+    padding-top: 20px;
 }
 /* utility */
 .d-padding {
@@ -106,23 +110,38 @@ details > summary {
     margin: 2% auto;
     text-align: center;
 }
-.button {
-    display: inline-block;
-    padding: 5px;
-    border-radius: 10px;
+.font-bolder {
+    font-weight: bolder;
+}
+a {
+    font-size: 12px;
+    font-weight: bolder;
     text-decoration: none;
 }
+a:hover:not(.button) {
+    text-decoration: underline;
+}
+.button {
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.button:hover {
+    box-shadow: 5px 5px 5px rgb(70, 70, 70);
+} 
 .container-60 {
     width: 60%;
-    ;
 }
 .container-40 {
     width: 40%;
 }
-.container-60 > image {
+.container-60  img {
     width: 100%;
 }
-.container-40 > h2 {
+.container-40  h2 {
     width: 100%;
 }
 .container-section {
@@ -132,6 +151,9 @@ details > summary {
 /* flex utility */
 .d-flex {
     display: flex;
+}
+.wrapper {
+    flex-wrap: wrap;
 }
 .space-between {
     justify-content: space-between;
