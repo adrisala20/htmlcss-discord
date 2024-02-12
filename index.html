@@ -17,7 +17,7 @@
 <body>
     <header class="plug">
         <div class="container d-padding plug">
-            <nav class=" d-flex space-between">
+            <nav class=" d-flex space-between align-center">
                 <img src="img/logo.svg" alt="logo Discord">
                 <ul class="font-bolder d-flex">
                     <li><a href="#">Scarica</a></li>
@@ -26,7 +26,7 @@
                     <li><a href="#">Sicurezza</a></li>
                     <li><a href="#">Assistenza</a></li>
                 </ul>
-                <a class="button btn-white" href="#">Accedi</a>
+                <a class="button btn-white align-center " href="#">Accedi</a>
             </nav>
         </div>
         <div class=" small-container d-padding justify-center">
@@ -42,8 +42,8 @@
         </div>
     </header>
     <main class="plug">
-        <div class="plug container">
-            <section class=" container-section d-flex d-padding">
+        <section class=" container-section">
+            <div class="plug container d-flex">
                 <div class="plug container-60">
                     <img src="img/item1.svg" alt=" immagine di una chat di gruppo">
                 </div>
@@ -52,60 +52,68 @@
                     <p> I server Discord sono organizzati in canali tematici in cui puoi collaborare, cindividere o
                         semplicemente parlare della tua giornata senza intasaee una chat di gruppo</p>
                 </div>
-            </section>
-            <section class="flex-reverse d-flex d-padding section-bg">
-                <div class="container-60">
-                    <img src="img/item2.svg" alt="">
-                </div>
-                <div class="container-40">
-                    <h2>Dove trovarsi è facile</h2>
-                    <p> Metiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che
-                        sei lì e unirsi istantaneamente senza dover chiamare.</p>
-            </section>
-            <section class="d-flex d-padding">
-                <div class="container-60">
-                    <img src="img/item3.svg" alt="">
-                </div>
-                <div class="container-40">
-                    <h2>Da pochi a un fandom</h2>
-                    <p> Dal inizio una community di qualsisasi dimensione con strumenti personalizzabile.
-                        Condeci ai membri poteri speciali, crea canali privati, e molto altro.
-                    </p>
-                </div>
-            </section>
-            <section id="technology" class="container d-padding section-bg">
-                <div class="justify-center align-center">
-                    <h2>Tecnologia affidabile per tenersi in contatto</h2>
-                    <p> video e audio bassa latenza ti faranno come se foste tutti nella stessa stanza. Fai ciao in un
-                        video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la
-                        condivisione schermo.</p>
-                    <img src="img/item4-big.svg" alt="imagine4">
-                </div>
+            </div>
+        </section>
+        <div class="wave container">
+        </div>
+        <section class="flex-reverse d-flex d-padding section-bg">
+            <div class="plug container d-flex grey-highlight">
+            <div class="container-60">
+                <img src="img/item2.svg" alt="">
+            </div>
+            <div class="container-40">
+                <h2>Dove trovarsi è facile</h2>
+                <p> Metiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che
+                    sei lì e unirsi istantaneamente senza dover chiamare.</p>
+            </div>
+            </div>
+        </section>
+        <section>
+            <div class="plug container d-flex">
+            <div class="container-60">
+                <img src="img/item3.svg" alt="">
+            </div>
+            <div class="container-40">
+                <h2>Da pochi a un fandom</h2>
+                <p> Dal inizio una community di qualsisasi dimensione con strumenti personalizzabile.
+                    Condeci ai membri poteri speciali, crea canali privati, e molto altro.
+                </p>
+            </div>
+            </div>
+        </section>
+        <section id="technology" class="container grey-highlight">
+            <div class="justify-center align-center">
+                <h2>Tecnologia affidabile per tenersi in contatto</h2>
+                <p> video e audio bassa latenza ti faranno come se foste tutti nella stessa stanza. Fai ciao in un
+                    video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la
+                    condivisione schermo.</p>
+                <img src="img/item4-big.svg" alt="imagine4">
+            </div>
 
-            </section>
-            <section class="d-padding small-container">
-                <div class="small-container stars">
-                    <h3> Pronto a iniziare la tua avventura?</h3>
-                    <a class="button btn-contrast arrow" href="#"> <i class="fa-solid fa-arrow-down"></i>Scarica per
-                        mac</a>
-                </div>
-            </section>
+        </section>
+        <section class="d-padding small-container">
+            <div class="small-container stars">
+                <h3> Pronto a iniziare la tua avventura?</h3>
+                <a class="button btn-contrast arrow" href="#"> <i class="fa-solid fa-arrow-down"></i>Scarica per
+                    mac</a>
+            </div>
+        </section>
         </div>
     </main>
     <footer class="plug">
         <div class="container">
-            <div class="d-flex space-between footer-top wrapper justify-center align-center">
+            <div class="d-flex space-between footer-top wrapper">
                 <section>
-                    <h3>Il tuo posto per palare</h3>
+                    <h3>Il tuo posto per parlare</h3>
                     <div>
-                        <div class="d-flex">
+                        <div class="top-margin d-flex">
                             <img id="flag" src="img/ita.png" alt="bandiera italiana">
                             <p>italiano
                                 <i class="fa-solid fa-angle-down"></i>
                             </p>
                         </div>
                     </div>
-                    <div id="icon" class=" d-flex space-between">
+                    <div class=" d-flex top-margin space-between">
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-instagram"></i>
                         <i class="fa-brands fa-facebook"></i>
@@ -114,18 +122,18 @@
                     </div>
                 </section>
                 <section>
-                    <h3>Prodotto</h3>
                     <ul>
-                        <li><a href="#">Scarica</li>
-                        <li><a href="#">Perché Discord</li>
-                        <li><a href="#">Nitro</li>
-                        <li><a href="#">Sicurezza</li>
-                        <li><a href="#">Assistenza</li>
+                        <li><h3>Prodotto</h3></li>
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord </a></li>
+                        <li><a href="#">Nitro </a></li>
+                        <li><a href="#">Sicurezza </a></li>
+                        <li><a href="#">Assistenza </a></li>
                     </ul>
                 </section>
                 <section>
-                    <h3> Compagnia</h3>
                     <ul>
+                        <li><h3>Compagnia</h3></li>
                         <li><a href="#">Chi siamo</a></li>
                         <li><a href="#">Lavora con noi</a></li>
                         <li><a href="#">Marchio</a></li>
@@ -134,28 +142,28 @@
                     </ul>
                 </section>
                 <section>
-                    <h3> Risorse</h3>
                     <ul>
-                        <li><a href="#">Scarica</li>
-                        <li><a href="#">Perché Discord</li>
-                        <li><a href="#">Nitro</li>
-                        <li><a href="#">Sicurezza</li>
-                        <li><a href="#">Assistenza</li>
-                        <li><a href="#">Scarica</li>
-                        <li><a href="#">Perché Discord</li>
-                        <li><a href="#">Nitro</li>
-                        <li><a href="#">Sicurezza</li>
-                        <li><a href="#">Assistenza</li>
+                        <li><h3> Risorse</h3></li>
+                        <li><a href="#">Scarica </a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro </a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
                     </ul>
                 </section>
                 <section>
-                    <h3>Norme</h3>
                     <ul>
-                        <li><a href="#">Scarica</li>
-                        <li><a href="#">Perché Discord</li>
-                        <li><a href="#">Nitro</li>
-                        <li><a href="#">Sicurezza</li>
-                        <li><a href="#">Assistenza</li>
+                        <li><h3>Norme</h3></li>
+                        <li><a href="#">Scarica</a></li>
+                        <li><a href="#">Perché Discord</a></li>
+                        <li><a href="#">Nitro</a></li>
+                        <li><a href="#">Sicurezza</a></li>
+                        <li><a href="#">Assistenza</a></li>
                     </ul>
                 </section>
             </div>
